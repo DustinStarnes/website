@@ -1,0 +1,35 @@
+.about-wrapper {
+  height: fit-content;
+  width: 80%;
+
+  margin: 0 auto;
+  margin-top: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .header {
+    font-family: $turretRoad;
+    color: $flat-black;
+    font-size: 34px;
+    margin-left: -40%;
+    margin-bottom: 25px;
+  }
+
+  .content-holder {
+    font-family: $roboto;
+    color: $flat-black;
+    font-size: 16px;
+    columns: 2;
+  }
+  .self-img {
+    width: 300px;
+    height: 300px;
+    margin-top: 150px;
+    border-radius: 150px;
+    background-image: url(../images/DSC_0024.JPG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}

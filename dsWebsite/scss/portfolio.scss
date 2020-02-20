@@ -1,0 +1,48 @@
+.portfolio-wrapper {
+  height: fit-content;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+
+  .header {
+    font-family: $turretRoad;
+    color: $flat-black;
+    font-size: 34px;
+    margin-top: 75px;
+    margin-bottom: 25px;
+    margin-left: -25%;
+  }
+  .content-holder {
+    height: fit-content;
+    width: 820px;
+
+    .box {
+      height: 500px;
+      width: 800px;
+      background-color: silver;
+      margin-top: 50px;
+      float: left;
+    }
+
+    .img-style {
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      cursor: pointer;
+    }
+    .link1 {
+      background-image: url(../images/1.png);
+    }
+    .link2 {
+      background-image: url(../images/2.png);
+    }
+    .link3 {
+      background-image: url(../images/3.png);
+    }
+    .link4 {
+      background-image: url(../images/4.png);
+    }
+  }
+}

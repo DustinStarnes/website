@@ -1,0 +1,36 @@
+.contact-form {
+  height: fit-content;
+  width: 80%;
+  margin: 0 auto;
+
+  .header {
+    font-family: $turretRoad;
+    color: $flat-black;
+    font-size: 34px;
+    margin-top: 75px;
+    margin-bottom: 25px;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 35%;
+    margin: auto;
+
+    .text {
+      font-family: $roboto;
+      color: $flat-black;
+      font-size: 18px;
+      margin: auto;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+    .box {
+      width: 100%;
+      height: 50px;
+      background-color: #e7e7e7;
+      padding-left: 12px;
+      border: none;
+    }
+  }
+}

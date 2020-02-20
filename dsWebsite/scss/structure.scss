@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: $off-white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.footer {
+  height: 75px;
+  width: 100%;
+  background-color: $off-white;
+  font-family: $roboto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

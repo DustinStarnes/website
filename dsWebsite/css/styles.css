@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html,
+body {
+  height: 100%;
+  background-color: #fffef9; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px; }
+
+.footer {
+  height: 75px;
+  width: 100%;
+  background-color: #fffef9;
+  font-family: "Roboto", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+nav {
+  height: 88px;
+  width: 33px;
+  background-color: red; }
+
+.nav-wrapper {
+  width: 100%;
+  height: 75px; }
+  .nav-wrapper .wrapper {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    border-bottom: 1px solid #1b1b1b; }
+    .nav-wrapper .wrapper .title {
+      font-family: "Turret Road", sans-serif;
+      font-size: 32px;
+      color: #1b1b1b;
+      margin: auto; }
+  .nav-wrapper .wrapper2 {
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    border-bottom: 1px solid #1b1b1b; }
+    .nav-wrapper .wrapper2 a {
+      font-family: "Turret Road", sans-serif;
+      font-size: 18px;
+      color: #1b1b1b;
+      margin: auto;
+      text-decoration: none; }
+
+.hero-img {
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 50px; }
+
+.quickLonks {
+  min-height: 500px;
+  width: 100%;
+  margin-top: -100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .quickLonks .lonks-wrapper {
+    width: 1080px;
+    min-height: 500px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .quickLonks .lonks-wrapper .header-home {
+      font-family: "Turret Road", sans-serif;
+      font-size: 24px;
+      color: #1b1b1b;
+      border-bottom: 1px solid #1b1b1b;
+      margin-bottom: 16px; }
+    .quickLonks .lonks-wrapper .lonks {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      .quickLonks .lonks-wrapper .lonks .lonk-list {
+        color: #1b1b1b;
+        text-decoration: none;
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+        margin-bottom: 6px; }
+
+.footer {
+  margin-top: -100px; }
+
+.about-wrapper {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .about-wrapper .header {
+    font-family: "Turret Road", sans-serif;
+    color: #1b1b1b;
+    font-size: 34px;
+    margin-left: -40%;
+    margin-bottom: 25px; }
+  .about-wrapper .content-holder {
+    font-family: "Roboto", sans-serif;
+    color: #1b1b1b;
+    font-size: 16px;
+    -webkit-columns: 2;
+    columns: 2; }
+  .about-wrapper .self-img {
+    width: 300px;
+    height: 300px;
+    margin-top: 150px;
+    border-radius: 150px;
+    background-image: url(../images/DSC_0024.JPG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+.portfolio-wrapper {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: auto; }
+  .portfolio-wrapper .header {
+    font-family: "Turret Road", sans-serif;
+    color: #1b1b1b;
+    font-size: 34px;
+    margin-top: 75px;
+    margin-bottom: 25px;
+    margin-left: -25%; }
+  .portfolio-wrapper .content-holder {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 820px; }
+    .portfolio-wrapper .content-holder .box {
+      height: 500px;
+      width: 800px;
+      background-color: silver;
+      margin-top: 50px;
+      float: left; }
+    .portfolio-wrapper .content-holder .img-style {
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      cursor: pointer; }
+    .portfolio-wrapper .content-holder .link1 {
+      background-image: url(../images/1.png); }
+    .portfolio-wrapper .content-holder .link2 {
+      background-image: url(../images/2.png); }
+    .portfolio-wrapper .content-holder .link3 {
+      background-image: url(../images/3.png); }
+    .portfolio-wrapper .content-holder .link4 {
+      background-image: url(../images/4.png); }
+
+.contact-form {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 80%;
+  margin: 0 auto; }
+  .contact-form .header {
+    font-family: "Turret Road", sans-serif;
+    color: #1b1b1b;
+    font-size: 34px;
+    margin-top: 75px;
+    margin-bottom: 25px; }
+  .contact-form .form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 35%;
+    margin: auto; }
+    .contact-form .form .text {
+      font-family: "Roboto", sans-serif;
+      color: #1b1b1b;
+      font-size: 18px;
+      margin: auto;
+      margin-top: 16px;
+      margin-bottom: 16px; }
+    .contact-form .form .box {
+      width: 100%;
+      height: 50px;
+      background-color: #e7e7e7;
+      padding-left: 12px;
+      border: none; }
